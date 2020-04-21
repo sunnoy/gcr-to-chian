@@ -5,7 +5,11 @@
     - name: Tag and push to docker docker hub
       docker_image:
         name: "{{ item }}"
-        repository: "sunnoy/{{ item.split('/')[6] }}"
+        repository: "sunnoy/{{ item.split('/')[-1] }}"
         push: yes
         source: pull
       with_lines: cat gcr-tekton
+    # - name: Tag and push to docker docker hub
+    #   debug:
+    #     msg: "sunnoy/{{ item.split('/')[-1] }}"
+    #   with_lines: cat gcr-tekton
