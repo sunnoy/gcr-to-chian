@@ -1,0 +1,9 @@
+gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/controller:v0.11.2
+gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/kubeconfigwriter:v0.11.2
+gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/creds-init:v0.11.2
+gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/git-init:v0.11.2
+gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/entrypoint:v0.11.2
+gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/imagedigestexporter:v0.11.2
+gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/pullrequest-init:v0.11.2
+gcr.io/tekton-releases/github.com/tektoncd/pipeline/vendor/github.com/googlecloudplatform/cloud-builders/gcs-fetcher/cmd/gcs-fetcher:v0.11.2
+gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/webhook:v0.11.2

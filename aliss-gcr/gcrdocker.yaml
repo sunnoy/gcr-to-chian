@@ -1,0 +1,11 @@
+- hosts: localhost
+  connection: local 
+  gather_facts: False
+  tasks:
+    - name: Tag and push to docker docker hub
+      docker_image:
+        name: "{{ item }}"
+        repository: "registry.cn-hangzhou.aliyuncs.com/openlr/{{ item }}"
+        push: yes
+        source: pull
+      with_lines: cat gcr-tekton
