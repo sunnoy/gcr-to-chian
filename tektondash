@@ -1,2 +1,2 @@
-gcr.io/tekton-releases/github.com/tektoncd/experimental/webhooks-extension/cmd/interceptor
-gcr.io/tekton-releases/github.com/tektoncd/experimental/webhooks-extension/cmd/extension
+gcr.io/tekton-releases/github.com/tektoncd/dashboard/cmd/dashboard:v0.6.1.2
+
