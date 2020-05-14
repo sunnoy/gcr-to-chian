@@ -1,2 +1,2 @@
-gcr.io/tekton-releases/github.com/tektoncd/dashboard/cmd/dashboard:v0.6.1.2
+gcr.io/tekton-releases/github.com/tektoncd/dashboard/cmd/dashboard
 
