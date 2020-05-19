@@ -8,7 +8,7 @@
         repository: "sunnoy/tekton-{{ item.split('/')[-1] }}"
         push: yes
         source: pull
-      with_lines: cat tektondash
+      with_lines: cat gcr-tekton
     # - name: Tag and push to docker docker hub
     #   debug:
     #     msg: "sunnoy/{{ item.split('/')[-1] }}"
